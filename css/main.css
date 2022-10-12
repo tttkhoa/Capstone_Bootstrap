@@ -1,9 +1,90 @@
 /* GLOBAL */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Volkhov", serif;
+}
+
+p {
+  color: #707070;
+}
+
+.title h5 {
+  color: #fb811e;
+  text-transform: capitalize;
+  font-size: 1.375rem;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .title h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title h1 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+  }
+}
+
+.title p {
+  font-size: 1.125rem;
+  line-height: 1.635rem;
+}
+
+.title button {
+  background-color: #fb811e;
+  line-height: 1.635rem;
+  text-transform: uppercase;
+  padding: 0.75rem 1.875rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.title button:hover {
+  background-color: #009f4d;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h1,h2,h3,h4,h5{
@@ -251,8 +332,8 @@ h1,h2,h3,h4,h5{
 
 
 /* ABOUT US */
-.aboutUs{
-    font-family: 'Volkhov', serif;
+.aboutUs {
+  font-family: "Volkhov", serif;
 }
 
 .aboutUs__left .btn-cyber:hover{
