@@ -1,0 +1,137 @@
+@media screen and (max-width:1150px){
+    .carousel__left h2{
+        font-size: 2.188rem;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    .carousel__left h1{
+        font-size:5.625rem ;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    .services__item3{
+        margin:1rem auto;
+    }
+
+    .services__item2{
+        margin-top:1rem;
+        margin-bottom: 0;
+    }
+
+    .carousel__left h2{
+        font-size: 2rem;
+        width: 125%;
+        line-height: 45px;
+    }
+
+    
+    .carousel__left h1{
+        font-size:5rem ;
+    }
+}
+
+@media screen and  (max-width:768px){
+    .aboutUs__left h3{
+        font-size: 1.125rem;
+    }   
+
+    .experience__left h3{
+        font-size: 1.125rem;
+    }
+
+    .experience__left h2{
+        font-size:2rem;
+        line-height: 40px;
+    }
+
+    .experience__box--right{
+        left:-50px;
+    }
+
+    .carousel__left{
+    background-color: #fff;
+    z-index: 2;
+    border-radius: 8px;
+    top: 50%;
+    position: absolute;
+    width: 85%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    }
+
+    .carousel__content--left{
+        padding: 1em 2em 3em 4em;
+    }
+
+    .carousel__left h2{
+        width: 100%;
+    }
+    .carousel__left p{
+    font-size: 1.063rem;    
+    }
+}
+
+@media screen and (max-width:626px){
+    .carousel__left{
+        transform: translate(-50%, 16%);
+    }
+}
+
+@media screen and  (max-width:575.98px){
+    .aboutUs__left h2 {
+        font-size: 1.875rem;
+    }  
+
+    .aboutUs__item-right{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:503px){
+    .carousel__left{
+        transform: translate(-50%, 15%);
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:475px){
+    .carousel__content--left {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:391px){
+    .carousel__left {
+        width: 91%;
+    }
+    .carousel__left p {
+        width: 90%;
+}
+}
+
+@media screen and (max-width:387px){
+    .carousel__left {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:359px){
+    .carousel__left {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width:331px){
+    .navbar-nav{
+        margin-left: 0 !important;
+    }
+
+    .header-fixed {
+        height: 120px;
+    }
+
+}
+
+
