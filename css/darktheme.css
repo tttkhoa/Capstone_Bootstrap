@@ -1,0 +1,155 @@
+/* global */
+.dark .title h1 {
+  color: white;
+}
+
+/* header */
+
+.dark header {
+  background-color: #222222;
+}
+
+.dark .header-fixed {
+  background-color: transparent;
+}
+
+.dark .nav-fixed {
+      background-color: #222222;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+}
+
+.dark #navCyber button .fa-sun {
+  display: inline-block;
+}
+
+.dark #navCyber button .fa-moon {
+  display: none;
+}
+
+.dark .nav-fixed #navCyber .nav-item:nth-child(2) i, .dark .nav-fixed #navCyber .nav-item:nth-child(3) i {
+  color: white;
+}
+
+.dark .nav-fixed #navCyber .navbar-brand {
+  color: white;
+}
+
+.dark #navCyber .menu input:checked ~ .submenu {
+  background-color: #222222;
+}
+
+.dark #navCyber .menu input:checked ~ .submenu li a {
+  color: white;
+}
+
+.dark #navCyber .submenu .submenu-active {
+  color: #fb811e !important;
+}
+
+/* carousel */
+
+.dark .carousel {
+  background-color: #222222;
+}
+
+.dark .carousel__left h1 {
+  color: black;
+}
+
+.dark .carousel__content--left h2 {
+  color: white;
+}
+
+/* about us */
+
+.dark .aboutUs {
+  background-color: #222222;
+}
+
+.dark .aboutUs h2,
+.dark .aboutUs h4 a {
+  color: white;
+}
+
+.dark .aboutUs .aboutUs__item-right {
+  background-color: #222222;
+  box-shadow: 0 1rem 3rem rgb(23 19 19);
+}
+
+.dark .aboutUs__item-right:hover {
+  transition: 0.3s;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+
+/* service */
+
+.dark .card-body {
+  background-color: #222222 !important;
+}
+
+.dark .card-body a {
+  color: white !important;
+}
+
+/* experience */
+
+.dark .experience {
+  background-color: #222222;
+}
+
+.dark .experience__left h2,
+.dark .experience__content--left h3 {
+  color: white;
+}
+
+/* fearture */
+
+.dark .feature {
+  background-color: #222222;
+}
+
+.dark .feature__item {
+  background-color: #222222 !important;
+}
+
+.feature .feature__item:focus {
+  border: 1px dotted white;
+}
+
+.dark .feature__item h4 {
+  color: white;
+}
+
+.feature .feature__item:focus {
+  border: 1px dotted white;
+}
+
+/* gallery */
+
+.dark .gallery {
+  background-color: #222222;
+}
+
+/* footer */
+
+.dark footer {
+  background-color: #222222;
+}
+
+.dark .footer__address h3,
+.dark .footer__newsletter h3 {
+  color: white;
+}
+
+.dark footer .footer__copyright h4 a:hover {
+  color: white;
+}
+
+.dark footer .footer__newsletter button:hover {
+  opacity: 0.8;
+}
+
+/* backToTop */
+.dark .backToTop a:hover {
+  opacity: 0.8;
+}
