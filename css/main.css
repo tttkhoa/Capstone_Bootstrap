@@ -218,6 +218,15 @@ h1,h2,h3,h4,h5{
     border: solid 1px #eee;
 }
 
+#navCyber .nav-item .fa-sun {
+  display: none;
+}
+
+#navCyber .nav-item button {
+  border: none;
+  background: transparent;
+}
+
 #navCyber .nav-item:nth-child(2) i,
 #navCyber .nav-item:nth-child(3) i
 {
