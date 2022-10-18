@@ -16,7 +16,7 @@
     }
 
     .services__item2{
-        margin-top:1rem;
+        margin-top:0;
         margin-bottom: 0;
     }
 
@@ -74,6 +74,11 @@
 
     .aboutUs_3 , .aboutUs_4 {
         margin-top: 20px;
+    }
+
+    .services__item2{
+        margin-top:1rem;
+        margin-bottom: 0;
     }
 }
 
