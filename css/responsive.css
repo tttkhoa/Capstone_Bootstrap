@@ -71,6 +71,10 @@
     .carousel__left p{
     font-size: 1.063rem;    
     }
+
+    .aboutUs_3 , .aboutUs_4 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:626px){
@@ -86,6 +90,10 @@
 
     .aboutUs__item-right{
         margin: 10px 0;
+    }
+
+    .aboutUs_2{
+        margin-top: 20px;
     }
 }
 
